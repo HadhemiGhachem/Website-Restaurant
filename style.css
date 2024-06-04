@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(255, 249, 249);
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    display: flex;
+    margin-top: 22px;
+}
+a{
+    text-decoration: none;
+    list-style:  none;
+    color: #000;
+}
+.list a{
+    margin-left: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.list a:hover{
+    color:rgba(224, 66, 3, 0.877) ;
+    
+    font-size: 18px;
+    transform: scale(1.1);
+}
+
+
+.button-nav{
+    margin-top: 20px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+.home .title img{
+    margin-top: 100px;
+    height: 180px; 
+    width: 450px;
+}
+.home .pg{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.img-nav img{
+    height: 550px;
+    width: 550px;
+    animation: trans 3s infinite;
+}
+.button{
+    background-color: rgba(250, 71, 0, 0.877);
+    color: #fff;
+    padding:5px 15px;
+    border-radius: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: all 1s;
+}
+#button{
+    padding: 8px 30px;
+}
+.button:hover{
+    background-color: #000;
+    
+}
+
+
+
+/**********************story  Section*************************/
+.story{
+    padding-top: 30px;
+    background-color: #fff;
+}
+.story-content{
+    display: flex;
+    padding: 50px 150px;
+    /* background-color: #fff; */
+    
+}
+.story-title{
+    text-align: center;
+    font-size: 25px;
+}
+.story-content p{
+    padding: 20px 80px 20px 80px ; 
+    font-size: 18px;
+   
+}
+.story-content img{
+    box-shadow: -1px 0px 14px 5px rgba(156, 156, 156, 0.75);
+    border-radius: 50px 0px ;
+}
+.details{
+    margin-left: 80px;
+    padding: 8px 40px;
+    font-size: 18px;
+    border: 1px solid rgba(250, 71, 0, 0.877);
+    color: rgba(250, 71, 0, 0.877);
+    border-radius: 20px;
+}
+
+
+/* popular menu */
+.popular-menu{
+    margin-top: 50px;
+}
+.popular-menu h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.popular-title{
+    color:  rgba(250, 71, 0, 0.877);
+}
+.popular-content{
+    display: flex;
+    justify-content: space-around;
+}
+.popular-box{
+    background-color: #fff;
+    box-shadow: -1px 0px 14px 5px rgba(156, 156, 156, 0.75);
+    border-radius: 20px;
+    
+}
+.popular-box img{
+    height: 250px;
+    width: 250px;
+    border-radius:20px 20px 0px 0px;
+
+}
+.popular-line1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+.popular-line2{
+   display: flex;
+   justify-content: space-around;
+   
+}
+.popular-line1 a{
+    color:  rgba(250, 71, 0, 0.877);
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.popular-line1 h2{
+    margin-top: 0px;
+}
+.popular-line2 p{
+    margin-top: 0px;
+}
+
+/* polpular dishes */
+
+.popular_dishes{ 
+    text-align: center;
+    margin-top: 100px;
+}
+.popular_dishes h1{
+    font-size: 30px;
+}
+.popular_dishes p{
+    color: grey;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.dishes_boxs{
+    display: flex;
+    justify-content: center;
+}
+.dish_box img{
+    height: 300px;
+    width: 200px;
+}
+.dish_box{
+    box-shadow: -1px 0px 14px 5px rgba(201, 200, 200, 0.75);
+    border-radius: 20px;
+    padding:0px 40px 20px 40px;
+    margin:0px 60px;
+    background-color: #fff;
+
+}
+.dish_box p{
+    margin-top: 10px;
+    color:  rgba(250, 71, 0, 0.877);
+}
+.dish_box h3{
+    margin-top: 0px;
+}
+.dish_box a{
+    background-color: rgba(250, 71, 0, 0.877);
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.dish_box a:hover{
+    background-color: #000;
+    transform: scale(2);
+}
+/* book_table */
+.book_table{
+    background: url(images/bookTable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 70px;
+    background-attachment:fixed ;
+    color: #000;
+}
+
+
+
+.book_table_content{
+    background-color: #fff;
+    padding: 20px 200px;
+    margin: 0px 200px;
+    text-align: center;
+}
+.book_table_content a{
+    color: rgba(250, 71, 0, 0.877) ;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.book_table_content a:hover{
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+/* why choose us */
+
+.choose {
+    text-align: center;
+    padding: 50px 100px;
+}
+.choose h1{
+    font-size: 30px;
+}
+.choose_content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.choose_box{
+    border: 1px #696565 solid;
+    margin: 20px 30px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.choose_box:hover{
+    background-color: #fff;
+    padding:0px 30px;
+    box-shadow: -1px 0px 14px 5px rgba(201, 200, 200, 0.75);
+}
+.choose_box h3{
+    color: rgba(250, 71, 0, 0.877) ;
+}
+.choose_box img{
+    height: 200px;
+    width: 200px;
+}
+.choose_box p{
+    padding: 0px 50px;
+}
+
+
+/* location */
+.location{
+    margin:100px 0px  0px 0px;
+    background: #ffffff;
+    padding: 50px 50px;
+}
+.location_content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+.location_del {
+    margin-top: 50px;
+    height: 200px;
+    width: 250px;
+}
+.location_img {
+    height: 250px;
+    width: 350px;
+}
+
+.location_box{
+    padding: 0px 40px;
+}
+.location_box h3{
+    color: rgba(250, 71, 0, 0.877) ;
+}
+/* contact_us */
+.contact_us{
+    display: flex;
+    margin: 50px 100px;
+}
+.contact_content .title{
+    font-size: 40px;
+}
+.contact_content .pg{
+    letter-spacing: 1.5px;
+    margin: 0px 100px 0px 0px;
+}
+.contact_content{
+    margin: 0px 50px;
+}
+#contact_content{
+    background :antiquewhite;
+    padding: 20px 60px;
+    margin: 0 30px ;
+    width: 300px;
+    height: 350px;
+}
+
+.contant_form input{
+    border: none;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    background-color: rgb(255, 249, 249);
+    width: 300px    ;
+    
+}
+
+.contant_form{
+    margin: 15px 0px;
+}
+.contact_button{
+    background-color: rgba(250, 71, 0, 0.877);
+    border: none;
+    color: #fff;
+    padding: 10px 60px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.icon_contact{
+    margin-right: 10px;
+    
+}
+
+
+/* footer */
+footer{
+    background-color: antiquewhite;
+   
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+.footer_content h1{
+    color:rgba(250, 71, 0, 0.877)  ;
+}
+.icon{
+    margin:5px 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -1px 0px 14px 5px rgba(226, 226, 226, 0.75);
+    transition: all 0.3s;
+}
+.footer_content div a{
+    color: #000;
+    margin-bottom: 30px;
+}
+/* .footer_content div div{
+    display: flex;
+} */
+.icon:hover{
+    background-color: rgba(250, 71, 0, 0.877)  ;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* testimonials */
+
+.testimonials_title{
+    margin-left: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.testimonials_title h1{
+    color: rgba(250, 71, 0, 0.877) ;
+}
+.testimonials_title p{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.testimonials_content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.testimonial_img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.gallery_item img{
+    width: 180px;
+    height: 180px;
+    transition: all 0.4s;
+}
+
+.gallery_item img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.testimonial{
+    width: 500px;
+    display: flex;
+}
+.testimonial_item{
+    margin: 0px 20px;
+    padding-bottom: 80px;
+    
+}
+
+
+/* @keyframes trans {
+    0% {
+      transform: translateY(0rem);
+    }
+    50% {
+      transform: translateY(2.3rem);
+    }
+    100% {
+      transform: translateY(0rem);
+    }
+  } */
